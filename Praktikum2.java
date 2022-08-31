@@ -6,6 +6,7 @@
 package praktikum2;
 //* mengimpor semua file pada packagenya
 import java.util.*;
+import javax.swing.JOptionPane;
 /**
  *
  * @author Praktikan
@@ -41,18 +42,19 @@ public class Praktikum2 {
         System.out.println(fromDb);
          
 //        SCANNER
-        Scanner bagas = new Scanner(System.in);
-        System.out.print("Nama anda : ");
-                String nama = bagas.nextLine();
-        System.out.print("Umur anda : ");
-                int umur = bagas.nextInt();               
-              bagas.nextLine();
-        System.out.print("Hobi anda : ");
-                String hobi = bagas.nextLine();
-        
-        System.out.println("Nama anda : " + nama);
-        System.out.println("Umur anda : " + umur);
-        System.out.println("Hobi anda : " + hobi);
-                
+//        Scanner bagas = new Scanner(System.in);
+//        System.out.print("Nama anda : ");
+//                String namaa = bagas.nextLine();
+//        System.out.print("Umur anda : ");
+//                int umur = bagas.nextInt();               
+//              bagas.nextLine();
+//        System.out.print("Hobi anda : ");
+//                String hobi = bagas.nextLine();
+//        
+//        System.out.println("Nama anda : " + namaa);
+//        System.out.println("Umur anda : " + umur);
+//        System.out.println("Hobi anda : " + hobi);
+       
+        String nama = JOptionPane.showInputDialog("Input nama anda");
   }
 }
